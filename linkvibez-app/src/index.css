@@ -1,0 +1,60 @@
+/* Premium LinkVibez Faded Purple Theme */
+:root {
+  --primary-purple: #8b5cf6;
+  --light-purple: #c4b5fd;
+  --neon-glow: rgba(139, 92, 246, 0.4);
+  --card-bg: rgba(255, 255, 255, 0.9); 
+}
+
+body {
+  margin: 0;
+  /* Faded purple to lighter purple gradient */
+  background: linear-gradient(135deg, #6d28d9 0%, #a78bfa 50%, #ddd6fe 100%) !important;
+  color: #1e1b4b;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.auth-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 40px; 
+  padding: 40px;
+  /* Fixed width to stop the skinny look in your screenshot */
+  width: 400px !important; 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.ai-icon {
+  width: 100px;
+  height: auto;
+  margin: 0 auto 10px auto;
+  filter: drop-shadow(0 0 10px var(--primary-purple));
+  animation: pulse 3s infinite ease-in-out;
+  display: block;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+
+button {
+  border-radius: 12px !important;
+  font-family: 'Quicksand', sans-serif !important;
+}

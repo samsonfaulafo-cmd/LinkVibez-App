@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background: #fdfdfd; /* Matching the clean light background */
+  font-family: 'Outfit', sans-serif; /* LinkVibez uses a modern clean sans-serif */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.lab-container {
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  padding: 40px;
+}
+
+.logo-section img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.brand-title {
+  color: #1a1a1a;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.brand-subtitle {
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  color: #a855f7;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.prompt-textarea {
+  width: 100%;
+  background: #f8fafc;
+  border: 1px solid #f1f5f9;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 1rem;
+  color: #64748b;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.enter-lab-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #a855f7 0%, #ec4899 100%);
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 50px; /* Pill shape like your screenshot */
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.response-box {
+  margin-top: 30px;
+  background: #f0fdfa; /* Light mint matching your privacy banner */
+  border: 1px solid #ccfbf1;
+  border-radius: 12px;
+  padding: 15px;
+  color: #0f766e;
+  font-size: 0.85rem;
+  text-align: left;
+}

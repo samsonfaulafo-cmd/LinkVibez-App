@@ -1,0 +1,3 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+Server running at http://localhost:5000
+Calling Gemini URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash :generateMessage
